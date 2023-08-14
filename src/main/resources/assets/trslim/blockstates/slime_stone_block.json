@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "trslim:block/slime_stone_block"
+    }
+  }
+}

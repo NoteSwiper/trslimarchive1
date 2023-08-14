@@ -1,0 +1,137 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 324,
+    "height": 211,
+    "inventoryOffsetX": -77,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_freq",
+          "text": {
+            "fixedValue": "FREQ:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 55,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_frequency_selector",
+          "text": {
+            "fixedValue": "Frequency Selector"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 220,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_radio",
+          "text": {
+            "fixedValue": "Radio"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 55,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_radiofreqkhz",
+          "text": {
+            "fixedValue": "{radiofreq}KHz"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 89,
+          "y": 102
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "7020.0",
+          "name": "frequency_sel",
+          "width": 120,
+          "height": 20,
+          "x": 219,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_jump",
+          "text": "Jump",
+          "width": 46,
+          "height": 20,
+          "x": 219,
+          "y": 156
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_connections",
+          "text": {
+            "fixedValue": "%n connections"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 56,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rx_s",
+          "text": {
+            "fixedValue": "RX - %s"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 56,
+          "y": 59
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "RadioGUIGUIgaKaikaretatoki"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

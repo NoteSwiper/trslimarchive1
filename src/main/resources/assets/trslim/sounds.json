@@ -1,0 +1,41 @@
+{
+  "slimedzombie.hurt": {
+    "subtitle": "subtitles.slimedzombie.hurt",
+    "sounds": [
+      {
+        "name": "trslim:slimedzombie_hurt1",
+        "stream": false
+      },
+      {
+        "name": "trslim:slimedzombie_hurt2",
+        "stream": false
+      }
+    ]
+  },
+  "slimedzombie.ambient": {
+    "subtitle": "subtitles.slimedzombie.ambient",
+    "sounds": [
+      {
+        "name": "trslim:slimedzombie_say1",
+        "stream": false
+      },
+      {
+        "name": "trslim:slimedzombie_say2",
+        "stream": false
+      },
+      {
+        "name": "trslim:slimedzombie_say3",
+        "stream": false
+      }
+    ]
+  },
+  "slimedzombie.death": {
+    "subtitle": "subtitles.slimedzombie.death",
+    "sounds": [
+      {
+        "name": "trslim:slimedzombie_death",
+        "stream": false
+      }
+    ]
+  }
+}

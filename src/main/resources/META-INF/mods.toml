@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Custom license"
+
+[[mods]]
+modId="trslim"
+version="1.0.0"
+displayName="trslim"
+credits="made using MCreator"
+displayURL="http://www.note-swiper.f5.si/article.php?page_id=255"
+authors="user, MCreator"
+description="yes.\nit was."
+
+[[dependencies.trslim]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

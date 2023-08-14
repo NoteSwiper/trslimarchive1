@@ -1,0 +1,315 @@
+{
+  "mod_elements": [
+    {
+      "name": "Trslim",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trslim",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Slime",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trslim/forge/biome_modifier/slime_biome_modifier.json",
+          "src/main/java/git_ntesp/trslim/client/renderer/SlimeRenderer.java",
+          "src/main/java/git_ntesp/trslim/entity/SlimeEntity.java",
+          "src/main/resources/assets/trslim/models/item/slime_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeGrassBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trslim/forge/biome_modifier/slime_grass_block_biome_modifier.json",
+          "src/main/resources/data/trslim/worldgen/placed_feature/slime_grass_block.json",
+          "src/main/resources/assets/trslim/blockstates/slime_grass_block.json",
+          "src/main/java/git_ntesp/trslim/world/features/ores/SlimeGrassBlockFeature.java",
+          "src/main/resources/data/trslim/worldgen/configured_feature/slime_grass_block.json",
+          "src/main/resources/assets/trslim/models/block/slime_grass_block.json",
+          "src/main/java/git_ntesp/trslim/block/SlimeGrassBlockBlock.java",
+          "src/main/resources/assets/trslim/models/item/slime_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeDirtBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trslim/blockstates/slime_dirt_block.json",
+          "src/main/resources/data/trslim/forge/biome_modifier/slime_dirt_block_biome_modifier.json",
+          "src/main/resources/assets/trslim/models/item/slime_dirt_block.json",
+          "src/main/java/git_ntesp/trslim/block/SlimeDirtBlockBlock.java",
+          "src/main/resources/data/trslim/worldgen/configured_feature/slime_dirt_block.json",
+          "src/main/resources/data/trslim/worldgen/placed_feature/slime_dirt_block.json",
+          "src/main/java/git_ntesp/trslim/world/features/ores/SlimeDirtBlockFeature.java",
+          "src/main/resources/assets/trslim/models/block/slime_dirt_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeyPlant",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimey_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/world/features/plants/SlimeyPlantFeature.java",
+          "src/main/resources/data/trslim/forge/biome_modifier/slimey_plant_biome_modifier.json",
+          "src/main/resources/data/trslim/worldgen/configured_feature/slimey_plant.json",
+          "src/main/resources/assets/trslim/models/item/slimey_plant.json",
+          "src/main/resources/assets/trslim/models/block/slimey_plant.json",
+          "src/main/resources/assets/trslim/models/block/slimey_plant_bottom.json",
+          "src/main/resources/data/trslim/worldgen/placed_feature/slimey_plant.json",
+          "src/main/resources/assets/trslim/blockstates/slimey_plant.json",
+          "src/main/java/git_ntesp/trslim/block/SlimeyPlantBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SlimeyBiome",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimey_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trslim/worldgen/biome/slimey_biome.json",
+          "src/main/resources/data/trslim/worldgen/configured_feature/slimey_biome_tree.json",
+          "src/main/resources/data/trslim/worldgen/placed_feature/slimey_biome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeyArrow",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimey_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/item/SlimeyArrowItem.java",
+          "src/main/resources/assets/trslim/models/item/slimey_arrow.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeyBow",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimey_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/item/SlimeyBowItem.java",
+          "src/main/java/git_ntesp/trslim/entity/SlimeyBowEntity.java",
+          "src/main/resources/assets/trslim/models/item/slimey_bow.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimedZombieenteiteigasuponsitaShi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimed_zombieenteiteigasuponsita_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/procedures/SlimedZombieenteiteigasuponsitaShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeStoneBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trslim/forge/biome_modifier/slime_stone_block_biome_modifier.json",
+          "src/main/resources/assets/trslim/models/block/slime_stone_block.json",
+          "src/main/resources/assets/trslim/models/item/slime_stone_block.json",
+          "src/main/java/git_ntesp/trslim/block/SlimeStoneBlockBlock.java",
+          "src/main/resources/data/trslim/worldgen/configured_feature/slime_stone_block.json",
+          "src/main/java/git_ntesp/trslim/world/features/ores/SlimeStoneBlockFeature.java",
+          "src/main/resources/data/trslim/worldgen/placed_feature/slime_stone_block.json",
+          "src/main/resources/assets/trslim/blockstates/slime_stone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallZombieHall",
+      "type": "structure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_zombie_hall",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/world/features/SmallZombieHallFeature.java",
+          "src/main/resources/data/trslim/worldgen/placed_feature/small_zombie_hall.json",
+          "src/main/resources/data/trslim/forge/biome_modifier/small_zombie_hall_biome_modifier.json",
+          "src/main/resources/data/trslim/worldgen/configured_feature/small_zombie_hall.json"
+        ]
+      }
+    },
+    {
+      "name": "RadioGUIGUIgaKaikaretatoki",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radio_guigu_iga_kaikaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/procedures/RadioGUIGUIgaKaikaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioGUI",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radio_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/git_ntesp/trslim/client/gui/RadioGUIScreen.java",
+          "src/main/java/git_ntesp/trslim/world/inventory/RadioGUIMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Radio_Frequency",
+      "type": "number",
+      "scope": "map",
+      "value": "7020.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.trslim.radio_gui.label_radiofreqkhz": "{radiofreq}KHz",
+      "gui.trslim.radio_gui.label_rx_s": "RX - %s",
+      "gui.trslim.radio_gui.label_freq": "FREQ:",
+      "block.trslim.slimey_plant": "Slimey Plant",
+      "block.trslim.slime_dirt_block": "Slime Dirt Block",
+      "gui.trslim.radio_gui.frequency_sel": "7020.0",
+      "item.trslim.slimey_bow": "Slimey Bow",
+      "gui.trslim.radio_gui.label_radio": "Radio",
+      "biome.trslim.slimey_biome": "Slimey Biome",
+      "gui.trslim.radio_gui.label_connections": "%n connections",
+      "gui.trslim.radio_gui.button_jump": "Jump",
+      "entity.trslim.slime": "Slime",
+      "block.trslim.slime_grass_block": "Slime Grass Block",
+      "gui.trslim.radio_gui.label_frequency_selector": "Frequency Selector",
+      "item_group.trslim.trslim": "trslim tab",
+      "item.trslim.slime_spawn_egg": "Slime Spawn Egg",
+      "item.trslim.slimey_arrow": "Slimey Arrow",
+      "block.trslim.slime_stone_block": "Slime Stone Block"
+    },
+    "ja_jp": {
+      "gui.trslim.radio_gui.label_radiofreqkhz": "{radiofreq}KHz",
+      "gui.trslim.radio_gui.label_rx_s": "RX - %s",
+      "gui.trslim.radio_gui.label_freq": "FREQ:",
+      "block.trslim.slimey_plant": "Slimey Plant",
+      "block.trslim.slime_dirt_block": "Slime Dirt Block",
+      "gui.trslim.radio_gui.frequency_sel": "7020.0",
+      "item.trslim.slimey_bow": "Slimey Bow",
+      "gui.trslim.radio_gui.label_radio": "Radio",
+      "biome.trslim.slimey_biome": "Slimey Biome",
+      "gui.trslim.radio_gui.label_connections": "%n connections",
+      "gui.trslim.radio_gui.button_jump": "Jump",
+      "entity.trslim.slime": "Slime",
+      "block.trslim.slime_grass_block": "Slime Grass Block",
+      "gui.trslim.radio_gui.label_frequency_selector": "Frequency Selector",
+      "item_group.trslim.trslim": "trslim tab",
+      "item.trslim.slime_spawn_egg": "Slime Spawn Egg",
+      "item.trslim.slimey_arrow": "Slimey Arrow",
+      "block.trslim.slime_stone_block": "Slime Stone Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "trslim",
+    "modName": "trslim",
+    "version": "1.0.0",
+    "description": "yes.\\nit was.",
+    "author": "user, MCreator",
+    "websiteURL": "http://www.note-swiper.f5.si/article.php?page_id\u003d255",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "made using MCreator",
+    "modElementsPackage": "git_ntesp.trslim",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300326610
+}

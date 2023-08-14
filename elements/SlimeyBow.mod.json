@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "bowit",
+    "customModelName": "Normal",
+    "name": "Slimey Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Trslim"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:SlimeyArrow"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.6,
+    "bulletDamage": 5.3999999999999995,
+    "bulletKnockback": 8,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:SlimeyArrow"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

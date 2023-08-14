@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "trslim:block/slimestone",
+    "particle": "trslim:block/slimestone"
+  },
+  "render_type": "solid"
+}

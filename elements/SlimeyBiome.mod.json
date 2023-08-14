@@ -1,0 +1,127 @@
+{
+  "_fv": 43,
+  "_type": "biome",
+  "definition": {
+    "name": "Slimey Biome",
+    "groundBlock": {
+      "value": "CUSTOM:SlimeDirtBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:SlimeDirtBlock"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "music.overworld.swamp"
+    },
+    "moodSound": {
+      "value": "ambient.cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SLIME"
+    },
+    "particlesProbability": 0.19999999999999998,
+    "rainingPossibility": 0.6,
+    "temperature": 0.72,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5002,
+      "max": 0.5011
+    },
+    "genHumidity": {
+      "min": -0.5013,
+      "max": 0.8
+    },
+    "genContinentalness": {
+      "min": 0.25,
+      "max": 1.42
+    },
+    "genErosion": {
+      "min": -0.8,
+      "max": 0.3
+    },
+    "genWeirdness": {
+      "min": -0.9973,
+      "max": 0.9997
+    },
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Big trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ForestGrass",
+      "ForestFlowers",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "LushCavesDecoration",
+      "PlainsTallGrass",
+      "SwampVegetation",
+      "TaigaRocks"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySlime"
+        },
+        "minGroup": 1,
+        "maxGroup": 8,
+        "weight": 29,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 23,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

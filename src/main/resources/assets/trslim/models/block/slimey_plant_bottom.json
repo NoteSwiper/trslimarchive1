@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "trslim:block/slimeyplant_bottom",
+    "particle": "trslim:block/slimeyplant_bottom"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "trslim:slime_grass_block",
+    "trslim:slime_dirt_block"
+  ]
+}

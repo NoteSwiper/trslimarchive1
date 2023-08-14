@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "trslim:small_zombie_hall",
+  "step": "underground_structures"
+}

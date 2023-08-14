@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "trslim tab",
+    "icon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "showSearch": true
+  }
+}

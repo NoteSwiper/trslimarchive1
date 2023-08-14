@@ -1,0 +1,98 @@
+{
+  "_fv": 43,
+  "_type": "plant",
+  "definition": {
+    "renderType": 120,
+    "texture": "slimeyplant_top",
+    "textureBottom": "slimeyplant_bottom",
+    "customModelName": "Cross model",
+    "itemTexture": "slimeyplant",
+    "particleTexture": "",
+    "tintType": "Grass",
+    "isItemTinted": false,
+    "plantType": "double",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 5,
+    "doublePlantGenerationType": "Grass",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Slimey Plant",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Trslim"
+    },
+    "hardness": 0.2,
+    "resistance": 1.0,
+    "luminance": 2,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "LILY_PADS"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "OPEN",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 0.9,
+    "speedFactor": 0.9,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:SlimeDirtBlock"
+      },
+      {
+        "value": "CUSTOM:SlimeGrassBlock"
+      }
+    ],
+    "isBonemealable": true,
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "patchSize": 64,
+    "generateAtAnyHeight": false
+  }
+}

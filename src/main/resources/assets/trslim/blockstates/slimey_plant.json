@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "trslim:block/slimey_plant"
+    },
+    "half=lower": {
+      "model": "trslim:block/slimey_plant_bottom"
+    }
+  }
+}
